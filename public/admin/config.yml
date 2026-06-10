@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: Y0UNG39/Y0UNG39.github.io
+  name: proxy
+  proxy_url: http://localhost:8081/api/v1
   branch: main
 
 media_folder: "public/images"

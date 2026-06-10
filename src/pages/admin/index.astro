@@ -1,0 +1,12 @@
+---
+import Layout from '@/layouts/Layout.astro'
+---
+
+<Layout title="Content Manager">
+  <iframe src="/admin/index.html" class="w-full min-h-screen border-0"></iframe>
+</Layout>
+
+<script>
+  // Redirect to the actual admin page
+  window.location.href = '/admin/index.html'
+</script>
