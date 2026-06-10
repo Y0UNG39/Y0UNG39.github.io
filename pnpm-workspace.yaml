@@ -1,4 +1,6 @@
-allowBuilds:
-  esbuild: true
-  sharp: true
-  simple-git-hooks: true
+packages:
+  - "."
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - simple-git-hooks
