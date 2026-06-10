@@ -1,0 +1,137 @@
+backend:
+  name: github
+  repo: Y0UNG39/Y0UNG39.github.io
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "文章"
+    folder: "src/content/posts"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    preview_path: "posts/{{slug}}"
+    fields:
+      - label: "标题"
+        name: "title"
+        widget: "string"
+      - label: "发布日期"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+      - label: "最后修改"
+        name: "lastMod"
+        widget: "datetime"
+        required: false
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+      - label: "摘要"
+        name: "summary"
+        widget: "text"
+        required: false
+      - label: "封面图"
+        name: "cover"
+        widget: "image"
+        required: false
+      - label: "分类"
+        name: "category"
+        widget: "string"
+        required: false
+      - label: "标签"
+        name: "tags"
+        widget: "list"
+        required: false
+      - label: "允许评论"
+        name: "comments"
+        widget: "boolean"
+        default: true
+      - label: "草稿"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "置顶"
+        name: "sticky"
+        widget: "number"
+        default: 0
+        min: 0
+      - label: "内容"
+        name: "body"
+        widget: "markdown"
+
+  - name: "projects"
+    label: "项目"
+    folder: "src/content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "标题"
+        name: "title"
+        widget: "string"
+      - label: "描述"
+        name: "description"
+        widget: "text"
+      - label: "图片"
+        name: "image"
+        widget: "image"
+      - label: "链接"
+        name: "link"
+        widget: "string"
+
+  - name: "friends"
+    label: "友链"
+    folder: "src/content/friends"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "名称"
+        name: "title"
+        widget: "string"
+      - label: "描述"
+        name: "description"
+        widget: "text"
+      - label: "头像"
+        name: "avatar"
+        widget: "image"
+      - label: "链接"
+        name: "link"
+        widget: "string"
+
+  - name: "pages"
+    label: "页面"
+    files:
+      - name: "about"
+        label: "关于页面"
+        file: "src/content/spec/about.md"
+        fields:
+          - label: "标题"
+            name: "title"
+            widget: "string"
+          - label: "描述"
+            name: "description"
+            widget: "text"
+          - label: "允许评论"
+            name: "comments"
+            widget: "boolean"
+            default: false
+          - label: "内容"
+            name: "body"
+            widget: "markdown"
+      - name: "friends"
+        label: "友链页面"
+        file: "src/content/spec/friends.md"
+        fields:
+          - label: "标题"
+            name: "title"
+            widget: "string"
+          - label: "描述"
+            name: "description"
+            widget: "text"
+          - label: "允许评论"
+            name: "comments"
+            widget: "boolean"
+            default: true
+          - label: "内容"
+            name: "body"
+            widget: "markdown"
