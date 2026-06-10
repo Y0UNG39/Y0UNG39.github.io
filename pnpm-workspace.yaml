@@ -1,5 +1,9 @@
 packages:
   - "."
+allowBuilds:
+  esbuild: set this to true or false
+  sharp: set this to true or false
+  simple-git-hooks: set this to true or false
 onlyBuiltDependencies:
   - esbuild
   - sharp
