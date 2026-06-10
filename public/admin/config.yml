@@ -2,8 +2,8 @@ backend:
   name: github
   repo: Y0UNG39/Y0UNG39.github.io
   branch: main
-  base_url: https://decap-oauth.netlify.app
-  auth_endpoint: /auth
+  base_url: https://auth-function.vercel.app
+  auth_endpoint: /api/auth
 
 media_folder: "public/images"
 public_folder: "/images"
