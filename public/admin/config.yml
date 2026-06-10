@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Y0UNG39/Y0UNG39.github.io
   branch: main
+  base_url: https://decap-oauth.netlify.app
+  auth_endpoint: /auth
 
 media_folder: "public/images"
 public_folder: "/images"
