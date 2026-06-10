@@ -1,15 +1,15 @@
 {
   "site": {
     "url": "https://y0ung39.github.io",
-    "title": "Y0UNG39",
-    "description": "Y0UNG39 的个人博客",
-    "keywords": "Y0UNG39,blog,Astro,博客",
+    "title": "YOUNG",
+    "description": "YOUNG 的个人博客",
+    "keywords": "YOUNG,blog,Astro,博客",
     "lang": "zh-CN",
     "favicon": "/favicon.ico",
     "appleTouchIcon": "/apple-touch-icon.png"
   },
   "author": {
-    "name": "Y0UNG39",
+    "name": "YOUNG",
     "twitterId": "",
     "avatar": "/avatar.jpg"
   },
