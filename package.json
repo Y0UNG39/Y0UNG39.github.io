@@ -2,6 +2,13 @@
   "name": "astro-gyoza",
   "type": "module",
   "version": "0.0.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp",
+      "simple-git-hooks"
+    ]
+  },
   "scripts": {
     "prepare": "pnpm exec simple-git-hooks",
     "dev": "astro dev",
