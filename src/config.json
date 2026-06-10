@@ -14,9 +14,9 @@
     "avatar": "/avatar.jpg"
   },
   "hero": {
-    "name": "Y0UNG39",
+    "name": "YOUNG",
     "bio": "欢迎来到我的个人博客",
-    "description": "记录生活，分享技术。",
+    "description": "那你就是传奇的开始咯",
     "socials": [
       {
         "name": "Github",
@@ -31,7 +31,7 @@
         "color": "rgb(212, 70, 56)"
       }
     ],
-    "yiyan": "记录生活，分享技术。"
+    "yiyan": "那你就是传奇的开始咯"
   },
   "color": {
     "accent": [
