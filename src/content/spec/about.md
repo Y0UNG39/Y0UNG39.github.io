@@ -1,20 +1,19 @@
 ---
 title: 关于我
-description: 关于 Y0UNG39
+description: 关于 YOUNG
 comments: false
 ---
 
 ## 关于我
 
-你好，我是 Y0UNG39，一个热爱技术的开发者。
+你好，我是 YOUNG，一个热爱技术的开发者。
 
 欢迎访问我的 [GitHub 主页](https://github.com/Y0UNG39) 了解更多。
 
 ## 技术栈
 
-- 前端开发
-- 全栈开发
-- 开源爱好者
+- 计算机视觉
+- 深度学习
 
 ## 致谢
 
