@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Y0UNG39/Y0UNG39.github.io
   branch: main
-  base_url: https://auth-function.vercel.app
+  base_url: https://y0-ung-39-github-qhuwyha8t-y0ung39-3010s-projects.vercel.app
   auth_endpoint: /api/auth
 
 media_folder: "public/images"
