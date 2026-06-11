@@ -1,8 +1,0 @@
-{
-  "name": "cms-oauth",
-  "version": "1.0.0",
-  "dependencies": {
-    "node-fetch": "^3.3.2",
-    "vercel": "^54.10.2"
-  }
-}
