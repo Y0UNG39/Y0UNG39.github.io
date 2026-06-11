@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
-    "cms": "node node_modules/decap-server/bin/decap-server.js",
+    "cms": "node node_modules/decap-server/dist/index.js",
     "astro": "astro",
     "lint": "prettier --write .",
     "new-friend": "node scripts/new-friend.js",
