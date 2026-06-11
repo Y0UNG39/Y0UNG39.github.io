@@ -65,6 +65,8 @@ collections:
     folder: "src/content/projects"
     create: true
     slug: "{{slug}}"
+    extension: "yaml"
+    format: "yaml"
     fields:
       - label: "标题"
         name: "title"
@@ -84,6 +86,8 @@ collections:
     folder: "src/content/friends"
     create: true
     slug: "{{slug}}"
+    extension: "yml"
+    format: "yaml"
     fields:
       - label: "名称"
         name: "title"
