@@ -2,6 +2,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## ⚠️ 最重要的规则
+
+**git push 之前必须先本地验证！**
+
+1. 修改代码后，先运行 `pnpm build` 验证构建是否成功
+2. 确认构建无错误后再 `git push`
+3. 绝对不能跳过本地验证直接推送
+
 ## Project Overview
 
 Gyoza is a static blog template built with **Astro 4.6** and **React 18**. The site is in Chinese (zh-CN).

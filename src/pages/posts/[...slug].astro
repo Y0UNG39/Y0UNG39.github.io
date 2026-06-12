@@ -103,7 +103,7 @@ const lastMod = current.data.lastMod || current.data.date
     </div>
     <div data-pagefind-ignore>
       <section class="space-y-6">
-        <PostCopyright title={current.data.title} slug={mdSlug} lastMod={lastMod} client:visible />
+        <PostCopyright lastMod={lastMod} client:visible />
         <PostNav prev={prev} next={next} />
         {current.data.comments && <Comments />}
       </section>
