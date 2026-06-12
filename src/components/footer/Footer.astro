@@ -1,9 +1,13 @@
 ---
 import { ThemeSwitch } from './ThemeSwitch'
+import { RunningDays } from './RunningDays'
 ---
 
 <footer class="relative z-1 py-8 px-4 md:px-8 border-t border-primary text-secondary text-sm">
   <div class="text-center space-y-2">
+    <div>
+      <RunningDays client:only="react" />
+    </div>
     <div class="mt-4 flex justify-center">
       <ThemeSwitch client:only="react" />
     </div>
